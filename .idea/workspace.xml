@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="968eb49c-99a5-455e-8722-ba447fec7633" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ServiceRegistry/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/java/com/registry/ServiceRegistryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ServiceRegistry/src/test/java/com/registry/ServiceRegistryApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/UserAuthenticationSystemApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/dto/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/dto/AuthResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/dto/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/dto/SignUpRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/dto/UserResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/entities/RefreshToken.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/entities/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/entities/UserSocialAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/exeptions/AuthException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/exeptions/NotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/interceptor/SecurityInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/repository/RefreshTokenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/repository/UserSocialRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/security/CustomOAuth2UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/security/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/security/JwtAuthenticationFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/security/JwtTokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/security/OAuth2AuthenticationSuccessHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/security/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/security/TokenService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/java/com/auth/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/User-Service/src/test/java/com/auth/UserAuthenticationSystemApplicationTests.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/User-Service" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="361FOMz7Rf9pJfSPo8DgeYHsqDk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AiServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.LearningPathGeneratorApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ServiceRegistryApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.UserAuthenticationSystemApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mayan/DevloperCompleteFolder/Backend/SkilsSuggestAI/LearningPathGenerator/src/main/java/com/path&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mayan\DevloperCompleteFolder\Backend\SkilsSuggestAI\LearningPathGenerator\src\main\java\com\path" />
+      <recent name="C:\Users\mayan\DevloperCompleteFolder\Backend\SkilsSuggestAI\AIService\src\main\java\com\ai" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="KtorApplicationConfigurationType" />
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="configurationStatuses">
+      <map>
+        <entry key="SpringBootApplicationConfigurationType">
+          <value>
+            <map>
+              <entry key="AiServiceApplication" value="STOPPED" />
+              <entry key="ApiGatewayApplication" value="STOPPED" />
+              <entry key="LearningPathGeneratorApplication" value="STOPPED" />
+              <entry key="ServiceRegistryApplication" value="STOPPED" />
+              <entry key="UserAuthenticationSystemApplication" value="STOPPED" />
+            </map>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserAuthenticationSystemApplication">
+    <configuration name="AiServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="AIService" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ai.AiServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ApiGateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.gateway.ApiGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LearningPathGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="LearningPathGenerator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.path.LearningPathGeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceRegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="ServiceRegistry" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.registry.ServiceRegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserAuthenticationSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="UserAuthenticationSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.auth.UserAuthenticationSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.AiServiceApplication" />
+      <item itemvalue="Spring Boot.UserAuthenticationSystemApplication" />
+      <item itemvalue="Spring Boot.ApiGatewayApplication" />
+      <item itemvalue="Spring Boot.LearningPathGeneratorApplication" />
+      <item itemvalue="Spring Boot.ServiceRegistryApplication" />
+    </list>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.26199.169" />
+        <option value="bundled-js-predefined-d6986cc7102b-9c94529fcfe0-JavaScript-IU-252.26199.169" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="968eb49c-99a5-455e-8722-ba447fec7633" name="Changes" comment="" />
+      <created>1764166137592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1764166137592</updated>
+      <workItem from="1764166138995" duration="4154000" />
+      <workItem from="1764177086409" duration="2851000" />
+      <workItem from="1764222972128" duration="1390000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
