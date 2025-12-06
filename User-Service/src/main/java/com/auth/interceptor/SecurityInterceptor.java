@@ -12,7 +12,9 @@ public class SecurityInterceptor implements HandlerInterceptor {
        String secretHeader = request.getHeader("X-Gateway-Secret");
        if(secretHeader==null || !secretHeader.equals("Jatin@MicroserviceResult") ){
            response.setStatus(HttpServletResponse.SC_FORBIDDEN);
+           System.out.println("Access Denied");
            response.getWriter().write("Access Denied : You must go through the API Gateway");
+           response.getWriter().flush(); // Ensure the text is sent
             return false;
        }
        return true;

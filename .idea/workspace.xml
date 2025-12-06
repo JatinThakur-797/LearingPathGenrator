@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="968eb49c-99a5-455e-8722-ba447fec7633" name="Changes" comment="Add initial project structure and configuration files for AI microservices" />
+    <list default="true" id="968eb49c-99a5-455e-8722-ba447fec7633" name="Changes" comment="Add initial project structure and configuration files for AI microservices">
+      <change afterPath="$PROJECT_DIR$/AIService/src/main/java/com/ai/controller/AIController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIService/src/main/java/com/ai/controller/HealthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AIService/src/main/java/com/ai/service/AIService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningPathGenerator/src/main/java/com/path/config/FeignConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningPathGenerator/src/main/java/com/path/controller/PathController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningPathGenerator/src/main/java/com/path/dto/LearningPathRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningPathGenerator/src/main/java/com/path/entity/LearningPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningPathGenerator/src/main/java/com/path/repository/LearningPathRepo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LearningPathGenerator/src/main/java/com/path/service/AIClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIService/src/main/java/com/ai/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/AIService/src/main/java/com/ai/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AIService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/AIService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/java/com/gateway/filter/AuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/gateway/filter/AuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/java/com/gateway/filter/RouteValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/gateway/filter/RouteValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/java/com/gateway/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/java/com/gateway/util/JwtUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ApiGateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningPathGenerator/src/main/java/com/path/LearningPathGeneratorApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearningPathGenerator/src/main/java/com/path/LearningPathGeneratorApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningPathGenerator/src/main/java/com/path/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/LearningPathGenerator/src/main/java/com/path/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LearningPathGenerator/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/LearningPathGenerator/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,12 +34,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/User-Service" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -28,36 +50,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "Spring Boot.AiServiceApplication.executor": "Debug",
-    "Spring Boot.ApiGatewayApplication.executor": "Debug",
-    "Spring Boot.LearningPathGeneratorApplication.executor": "Debug",
-    "Spring Boot.ServiceRegistryApplication.executor": "Debug",
-    "Spring Boot.UserAuthenticationSystemApplication.executor": "Debug",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/mayan/DevloperCompleteFolder/Backend/SkilsSuggestAI/LearningPathGenerator/src/main/java/com/path",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "preferences.fileTypes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Spring Boot.AiServiceApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ApiGatewayApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.LearningPathGeneratorApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.ServiceRegistryApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;Spring Boot.UserAuthenticationSystemApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mayan/DevloperCompleteFolder/Backend/SkilsSuggestAI/LearningPathGenerator/src/main/java/com/path&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.fileTypes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
@@ -92,8 +115,11 @@
       </map>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserAuthenticationSystemApplication">
+  <component name="RunManager" selected="Spring Boot.AiServiceApplication">
     <configuration name="AiServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <envs>
+        <env name="GEN_AI_API_KEY" value="AIzaSyAmZJOluoLcZPF8R8hWNBxIrKWSNY5HnloAIzaSyAmZJOluoLcZPF8R8hWNBxIrKWSNY5Hnlo" />
+      </envs>
       <module name="AIService" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ai.AiServiceApplication" />
       <method v="2">
@@ -110,6 +136,9 @@
     </configuration>
     <configuration name="LearningPathGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="LearningPathGenerator" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.path.LearningPathGeneratorApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,7 +185,12 @@
       <updated>1764166137592</updated>
       <workItem from="1764166138995" duration="4154000" />
       <workItem from="1764177086409" duration="2851000" />
-      <workItem from="1764222972128" duration="2053000" />
+      <workItem from="1764222972128" duration="3766000" />
+      <workItem from="1764234075224" duration="7534000" />
+      <workItem from="1764597982219" duration="578000" />
+      <workItem from="1764669148743" duration="2641000" />
+      <workItem from="1764747945824" duration="1173000" />
+      <workItem from="1764922931456" duration="7788000" />
     </task>
     <task id="LOCAL-00001" summary="implement user authentication system with signup, login, and token management features">
       <option name="closed" value="true" />

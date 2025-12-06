@@ -41,6 +41,7 @@ public class AuthService {
         }
         var tokens = tokenService.createTokens(user);
         tokenService.setRefreshCookie(response, tokens.refreshToken());
+        System.out.println("End of AuthService");
         return new AuthResponse(tokens.accessToken(), new UserResponse(user));
     }
     public AuthResponse refreshToken(HttpServletRequest request, HttpServletResponse response){

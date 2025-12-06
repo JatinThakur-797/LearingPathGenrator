@@ -12,6 +12,7 @@ public class WebConfig implements WebMvcConfigurer {
     private SecurityInterceptor securityInterceptor;
     @Override
     public void addInterceptors(InterceptorRegistry registry){
-        registry.addInterceptor(securityInterceptor);
-    }
-}
+        registry.addInterceptor(securityInterceptor)
+                .addPathPatterns("/**") // Apply to everything...
+                .excludePathPatterns("/helloAI", "/health", "/error"); // ...EXCEPT these
+    }}
